@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.sec2part {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    gap: 5px;
+}
+.bG{
+    background: linear-gradient(to bottom, rgba(7, 141, 231, 0.06 ,rgba(255, 255, 255, 0.707)));
+}
